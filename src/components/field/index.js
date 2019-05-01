@@ -23,7 +23,6 @@ import styles from './styles.js';
 
 export default class TextField extends PureComponent {
   static defaultProps = {
-    underlineColorAndroid: 'transparent',
     disableFullscreenUI: true,
     autoCapitalize: 'sentences',
     editable: true,
